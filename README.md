@@ -1,6 +1,6 @@
 # Find Your MLA App
 
-## live demo 
+## Live Demo 
 Enable Moesif Orgin & CORS Changer Chrome plugin or Mozzila add on before use it
 https://find-your-mla.netlify.app/
 
