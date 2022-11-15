@@ -13,4 +13,7 @@ In order to prevent CORS error and access the OpenNorth API, please install Moes
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-![image](https://user-images.githubusercontent.com/72715756/201822693-bffbb2a2-a408-4d36-85cc-1e443a6ec889.png)
+
+![image](https://user-images.githubusercontent.com/72715756/201823171-9d55991f-af1b-4019-a06b-1688aef8ae17.png)
+
+
