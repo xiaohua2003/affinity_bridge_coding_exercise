@@ -6,7 +6,7 @@ export interface Office {
 export interface MlaInfo {
   name: string;
   email: string;
-  photoUrl: string;
+  photoUrl?: string;
   districtName: string;
   offices: Office[];
 }

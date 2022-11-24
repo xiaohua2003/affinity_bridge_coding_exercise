@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import useFetchFromApi from "./hooks/useFetchFromApi";
 import { MlaInfo } from "./types/MlaInfo";
 import MlaInfoCard from "./components/MlaInfoCard";
+import MlaInfoCard2 from "./components/MlaInfoCard2";
 
 function App() {
   const [mlaInfo, setMlaInfo] = useState<MlaInfo | null>(null);
@@ -78,7 +79,15 @@ function App() {
         <div style={{ display: "flex", flexDirection: "row" }}>
           <img src={mlaInfo.photoUrl} alt="mlaPhoto" height="200" />
           <div style={{ marginLeft: "2rem" }}>
-            <MlaInfoCard mlaInfo={mlaInfo} />
+            {/* MlaInfoCard with React.FC<{ mlaInfo: MlaInfo }> type */}
+            {/* <MlaInfoCard mlaInfo={mlaInfo} /> */}
+            {/* alternative: MlaInfoCard without React.FC<{ mlaInfo: MlaInfo }> type*/}
+            <MlaInfoCard2
+              name={mlaInfo.name}
+              email={mlaInfo.email}
+              offices={mlaInfo.offices}
+              districtName={mlaInfo.districtName}
+            />
           </div>
         </div>
       )}
